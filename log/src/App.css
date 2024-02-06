@@ -1,0 +1,112 @@
+/* eorror contant */
+.error-message {
+  color: red;
+}
+.error-input {
+  border: 2px solid red;
+}
+.error-button {
+  background-color: red;
+  color: white;
+}
+
+
+/* container */
+body{
+  background-image: url("./img/img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+} 
+form{ 
+ box-shadow: 5px 5px 10px rgb(206, 180, 180);
+ width: max-content;
+ margin-left: 30%;
+ margin-top: 10%;
+ margin-bottom: 3%;
+ padding-left: 5%;
+ padding-right: 5%;
+ background-color:rgb(0,0,0,.6);
+ border-radius: 10px;
+}
+form h1{
+  
+  font-size: 50px;
+  letter-spacing: 5px;
+  color: rgba(255, 63, 63, 0.6);
+  text-shadow: 0px 1px 0px gray,
+  0px 2px 0px gray,
+  0px 3px 0px gray;
+}
+form .form-text{
+  font-size: 20px;
+}
+form label{
+  font-size: 20px;
+  color: white;
+}
+form input{
+  padding: 3%;
+  border-radius: 10px;
+  border: 1px solid;
+  border: none;
+  width: 80%;
+  background-color: rgb(241, 239, 239);
+}
+form input:hover{
+  border: none;
+}
+
+
+
+.gender input{
+  width: 20%;
+}
+.gender small{
+  font-size: 20px;
+}
+.course {
+  width: 20%;
+}
+ span{
+  font-size: 20px;
+  color: aliceblue;
+}
+
+form .btn{
+  margin-top: 3%;
+  margin-bottom: 3%;
+  margin-left: 20%;
+  text-align: center;
+  width: 50%;
+  border: none;
+  border-radius: 4px;
+  height: 30px;
+} 
+form .btn:hover{
+  background-color: blue;
+  color: black;
+}
+
+/* @media only screen and (max-width: 850px){
+  form{
+    margin-left: 45px;
+    
+  }
+}
+@media only screen and (max-width: 650px){
+  form{
+    margin-left: 20px;
+    margin-right: 40px;
+    width: max-content;
+  }
+}
+@media only screen and (max-width: 550px){
+  form{
+    margin-left: 50px;
+  }
+}
+ @media only screen and (max-width: 500px) {
+  form {
+    margin-left:0px;
+}
+} */
